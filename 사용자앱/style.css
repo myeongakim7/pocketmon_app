@@ -1,0 +1,24 @@
+/* style.css */
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  padding: 20px;
+}
+.poketmon-list .item {
+  display: flex;
+  background-color: #efefef;
+  justify-content: space-around;
+}
+.poketmon-list .item img {
+  width: 300px;
+}
+
+.pocketmon-list .item .info {
+  padding: 0 20px;
+}

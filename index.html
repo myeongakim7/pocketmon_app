@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+</head>
+
+<body>
+  <h1>포켓몬 도감</h1>
+  <div id="poke-list">
+  </div>
+
+
+  <script>
+    fetch('http://localhost:3001/api/all')
+      .then(res => res.json())
+      .then(data => {
+        console.log(data);
+      })
+    // raw - 문자열(웹에서 오는 것) => 
+    // clg => cors policy 라고 뜨면 사이트에 함부로 접근못함 
+    // cors policy 문제해결을 위해 
+    // ctrl + c 중단 
+  </script>
+</body>
+
+</html>
